@@ -32,7 +32,7 @@
       "to": 98766
     }
   ],
-  "target": "Internal",
+  "target": "OnPrem",
   "showMyCode": true,
   "runtime": "4.0"
 }
