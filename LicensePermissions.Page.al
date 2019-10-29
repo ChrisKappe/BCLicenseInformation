@@ -36,6 +36,19 @@ page 98765 "License Permissions"
                 RunObject = page "License Information";
                 Promoted = true;
             }
+            action(ImportLicense)
+            {
+                Caption = 'Import License';
+                ApplicationArea = All;
+                Promoted = true;
+
+                trigger OnAction()
+                var
+                    ImportLicenseFile: Codeunit ImportLicenseFile;
+                begin
+                    ImportLicenseFile.ImportLicense();
+                end;
+            }
         }
     }
 }
