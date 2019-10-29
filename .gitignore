@@ -5,3 +5,4 @@ Layouts/
 *.app
 Translations/
 _output/
+*.dll
