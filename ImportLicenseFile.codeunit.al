@@ -4,7 +4,7 @@ codeunit 98765 "ImportLicenseFile"
     var
         Powershellrunner: DotNet PowerShellRunner;
         ActiveSession: Record "Active Session";
-        TempBlob: Codeunit "Temp Blob";
+        TempBlob: Record TempBlob;
         FileMgt: Codeunit "File Management";
         Window: Dialog;
         FileName: Text;
